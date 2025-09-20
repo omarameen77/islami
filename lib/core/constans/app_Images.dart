@@ -36,4 +36,10 @@ class AppImages {
   static const String intro2 = 'assets/images/intro2.png';
   static const String intro3 = 'assets/images/intro3.png';
   static const String intro4 = 'assets/images/intro4.png';
+  static const String mask1 = "assets/images/mask.png";
+  static const String mask2 = "assets/images/mask2.png";
+  static const String polygon = "assets/images/Polygon.png";
+  static const String volume = "assets/images/VolumeHigh.png";
+  static const String volumeCross = "assets/images/VolumeCross.png";
+  static const String pause = "assets/images/pause.png";
 }
