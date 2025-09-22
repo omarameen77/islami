@@ -28,14 +28,12 @@ This project uses the following packages:
 
 ### Installing
 
-Follow these steps to run the project locally:
+Run these commands in your terminal:
 
-### 1. Open Terminal and Clone the Repository
-```bash```
+```bash
 git clone https://github.com/omararameen77/islami.git
-
-### 2. Cd Over
-```bash```
 cd islami
+flutter pub get
+
 
 
