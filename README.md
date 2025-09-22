@@ -1,6 +1,6 @@
 
 Islami
 <p align="center">
-  <img src="screenshot/Cover.png" width="200"/>
+  <img src="screenshot/Cover.png" width="800"/>
 </p>
 
