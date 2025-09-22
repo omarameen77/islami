@@ -29,11 +29,10 @@ This project uses the following packages:
 ### Installing
 
 Run these commands in your terminal:
-
+### 1.Open Terminal and Clone the Repo
 ```bash
 git clone https://github.com/omararameen77/islami.git
-cd islami
-flutter pub get
+
 
 
 
