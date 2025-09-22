@@ -34,3 +34,7 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/omarameen77/islami.git
 
+### 2. Navigate to the Project Directory
+```bash
+cd islami
+
