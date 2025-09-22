@@ -30,19 +30,19 @@ class _CardRadioState extends State<CardRadio> {
         ),
         child: Stack(
           children: [
-            // Align(
-            //   alignment: AlignmentGeometry.bottomCenter,
-            //   child: Image.asset(
-            //     isAuto ? AppImages.mask2 : AppImages.mask1,
-            //   ),
-            // ),
+            Align(
+              alignment: AlignmentGeometry.bottomCenter,
+              child: Image.asset(
+                isAuto ? AppImages.soundWave : AppImages.imgBottomDecoration,
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.only(top: 10),
               child: Align(
                 alignment: Alignment.topCenter,
                 child: Text(
                   widget.title,
-                  style: TextStyles.smallLabelTextStyle(textColor: Colors.black),
+                  style: TextStylesHelper.smallLabelTextStyle(textColor: Colors.black),
                   textAlign: TextAlign.center,
                 ),
               ),

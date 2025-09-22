@@ -63,7 +63,7 @@ class _SebhaTabState extends State<SebhaTab>
             children: [
               Text(
                 "${azkar[zekrIndex]}",
-                style: TextStyles.largeBodyTextStyle(
+                style: TextStylesHelper.largeBodyTextStyle(
                   textColor: AppColors.gold,
                 ),
               ),
@@ -81,7 +81,7 @@ class _SebhaTabState extends State<SebhaTab>
       //       backgroundColor: AppColors.brown,
       //       content:  Text(
       //         "تم إكمال دورة تسبيح كاملة ",
-      //         style: TextStyles.largeBodyTextStyle(textColor:AppColors.white )
+      //         style: TextStylesHelper.largeBodyTextStyle(textColor:AppColors.white )
       //       ),
       //       duration: Duration(seconds: 2),
       //     ),
@@ -123,7 +123,7 @@ class _SebhaTabState extends State<SebhaTab>
         children: [
           Text(
             "سَبِّحِ اسْمَ رَبِّكَ الأعلى ",
-            style: TextStyles.largeTitleTextStyle(textColor: Colors.white),
+            style: TextStylesHelper.largeTitleTextStyle(textColor: Colors.white),
           ),
           const SizedBox(height: 10),
           Image.asset(AppImages.hand2),
@@ -147,14 +147,14 @@ class _SebhaTabState extends State<SebhaTab>
                   children: [
                     Text(
                       azkar[zekrIndex],
-                      style: TextStyles.largeTitleTextStyle(
+                      style: TextStylesHelper.largeTitleTextStyle(
                         textColor: AppColors.white,
                       ),
                     ),
                     const SizedBox(height: 15),
                     Text(
                       "$counter",
-                      style: TextStyles.largeTitleTextStyle(
+                      style: TextStylesHelper.largeTitleTextStyle(
                         textColor: AppColors.white,
                       ),
                     ),

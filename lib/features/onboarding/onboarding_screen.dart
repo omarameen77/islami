@@ -3,7 +3,7 @@ import 'package:islami/core/constans/app_Images.dart';
 import 'package:islami/core/theme/app_colors.dart';
 import 'package:islami/core/theme/textstyle.dart';
 import 'package:islami/features/home/home_screen.dart';
-import 'package:islami/features/onboarding/custom_pageIntro.dart';
+import 'package:islami/features/onboarding/widget/custom_pageIntro.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -97,7 +97,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 );
               },
             ),
-        
+
             /// Indicators + Buttons
             Container(
               alignment: const Alignment(0, 0.99),
@@ -110,39 +110,41 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           onTap: () => prevPage(),
                           child: Text(
                             "Back",
-                            style: TextStyles.smallLabelTextStyle(),
+                            style: TextStylesHelper.smallLabelTextStyle(),
                           ),
                         ),
-        // dot indicators
+                  // dot indicators
                   SmoothPageIndicator(
                     controller: controller,
                     count: pages.length,
                     effect: WormEffect(
-                      dotHeight: 10.0,
-                      dotWidth: 10.0,
+                      dotHeight: 8.0,
+                      dotWidth: 8.0,
                       dotColor: AppColors.gray,
                       activeDotColor: AppColors.gold,
                     ),
                   ),
-        
+
                   onLastPage
                       ? GestureDetector(
-                          onTap: () => Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const HomeScreen(),
-                            ),
-                          ),
+                          onTap: () {
+                            Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const HomeScreen(),
+                              ),
+                            );
+                          },
                           child: Text(
                             "Done",
-                            style: TextStyles.smallLabelTextStyle(),
+                            style: TextStylesHelper.smallLabelTextStyle(),
                           ),
                         )
                       : GestureDetector(
                           onTap: () => nextPage(),
                           child: Text(
                             "Next",
-                            style: TextStyles.smallLabelTextStyle(),
+                            style: TextStylesHelper.smallLabelTextStyle(),
                           ),
                         ),
                 ],

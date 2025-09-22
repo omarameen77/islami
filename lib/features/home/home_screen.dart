@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:islami/core/constans/app_Images.dart';
 import 'package:islami/core/theme/app_colors.dart';
@@ -7,6 +6,7 @@ import 'package:islami/features/home/tabs/quran_tab/quran_tab.dart';
 import 'package:islami/features/home/tabs/radio_tab/radio_tab.dart';
 import 'package:islami/features/home/tabs/sebha_tab/sebha_tab.dart';
 import 'package:islami/features/home/tabs/time_tab/time_tab.dart';
+import 'package:islami/features/home/widget/custom_bottom_icon.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = "home";
@@ -47,9 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [
-              AppColors.black,
-              AppColors.black.withAlpha(80)],
+            colors: [AppColors.black, AppColors.black.withAlpha(80)],
             begin: Alignment.bottomCenter,
             end: Alignment.topCenter,
           ),
@@ -112,37 +110,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
-    );
-  }
-}
-
-class CustomBottomNavigationBarIcon extends StatelessWidget {
-  final String imagePath;
-  final bool isSelected;
-
-  const CustomBottomNavigationBarIcon({
-    required this.imagePath,
-    required this.isSelected,
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return AnimatedSwitcher(
-      duration: Duration(milliseconds: 300),
-      transitionBuilder:
-          (child, animation) => ScaleTransition(scale: animation , child: child,),
-      child:
-          isSelected
-              ? Container(
-                padding: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-                decoration: BoxDecoration(
-                  color: AppColors.black.withAlpha(50),
-                  borderRadius: BorderRadius.circular(100),
-                ),
-                child: ImageIcon(AssetImage(imagePath)),
-              )
-              : ImageIcon(AssetImage(imagePath)),
     );
   }
 }

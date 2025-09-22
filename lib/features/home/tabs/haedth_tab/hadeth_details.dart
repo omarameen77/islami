@@ -5,6 +5,7 @@ import 'package:islami/core/theme/app_colors.dart';
 import 'package:islami/core/theme/textstyle.dart';
 
 
+
 class HadethDetailsScreen extends StatelessWidget {
   static const String routeName = "/hadeth-details";
   final Hadeth hadeth;
@@ -32,7 +33,7 @@ class HadethDetailsScreen extends StatelessWidget {
                 Expanded(
                   child: Text(
                     hadeth.title,
-                    style: TextStyles.largeLabelTextStyle(
+                    style: TextStylesHelper.largeLabelTextStyle(
                       textColor: AppColors.gold,
                     ),
                     textAlign: TextAlign.center,
@@ -47,7 +48,7 @@ class HadethDetailsScreen extends StatelessWidget {
               padding: EdgeInsets.all(8),
               child: Text(
                 hadeth.content,
-                style: TextStyles.smallTextStyle(textColor: AppColors.gold),
+                style: TextStylesHelper.smallTextStyle(textColor: AppColors.gold),
                 textAlign: TextAlign.center,
               ),
             ),

@@ -1,4 +1,4 @@
-import 'dart:convert';
+ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami/core/constans/app_Images.dart';
@@ -115,7 +115,7 @@ class _HadethCardState extends State<HadethCard> {
                               children: [
                                 Text(
                                   hadeth.title,
-                                  style: TextStyles.largeTextStyle(
+                                  style: TextStylesHelper.largeTextStyle(
                                     textColor: AppColors.black,
                                   ),
                                 ),
@@ -123,7 +123,7 @@ class _HadethCardState extends State<HadethCard> {
                                 Expanded(
                                   child: Text(
                                     hadeth.content,
-                                    style: TextStyles.mediumLabelTextStyle(
+                                    style: TextStylesHelper.mediumLabelTextStyle(
                                       textColor: AppColors.black,
                                     ),
                                     textAlign: TextAlign.center,

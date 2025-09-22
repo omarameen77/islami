@@ -47,7 +47,7 @@ class _QuranTabState extends State<QuranTab> {
               onChanged: (value) {
                 searchInList(value);
               },
-              style: TextStyles.smallLabelTextStyle(textColor: AppColors.white),
+              style: TextStylesHelper.smallLabelTextStyle(textColor: AppColors.white),
               decoration: InputDecoration(
                 filled: true,
                 fillColor: AppColors.black.withAlpha(80),
@@ -56,7 +56,7 @@ class _QuranTabState extends State<QuranTab> {
                   color: AppColors.gold,
                 ),
                 hintText: "Search By Sura Name",
-                hintStyle: TextStyles.smallLabelTextStyle(
+                hintStyle: TextStylesHelper.smallLabelTextStyle(
                   textColor: AppColors.white,
                 ),
                 enabledBorder: OutlineInputBorder(
@@ -75,7 +75,7 @@ class _QuranTabState extends State<QuranTab> {
               padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Text(
                 "Most Recent",
-                style: TextStyles.largeBodyTextStyle(),
+                style: TextStylesHelper.largeBodyTextStyle(),
               ),
             ),
 
@@ -97,7 +97,7 @@ class _QuranTabState extends State<QuranTab> {
 
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
-            child: Text("Suras List", style: TextStyles.largeBodyTextStyle()),
+            child: Text("Suras List", style: TextStylesHelper.largeBodyTextStyle()),
           ),
           Expanded(
             child: ListView.separated(

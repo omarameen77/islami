@@ -1,12 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:islami/core/theme/app_colors.dart';
 
-class TextStyles {
+class TextStylesHelper {
   static TextStyle largeTitleTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
       color: textColor,
       fontWeight: FontWeight.w900,
       fontSize: 24,
+      fontFamily: "Janna",
+    );
+  }
+
+    static TextStyle largeFontTextStyle({Color textColor = AppColors.gold}) {
+    return TextStyle(
+      color: textColor,
+      fontWeight: FontWeight.w900,
+      fontSize: 30,
       fontFamily: "Janna",
     );
   }
@@ -48,11 +57,29 @@ class TextStyles {
     );
   }
 
+    static TextStyle largeLabelBoldTextStyle({Color textColor = AppColors.gold}) {
+    return TextStyle(
+      color: textColor,
+      fontWeight: FontWeight.bold,
+      fontSize: 20,
+      fontFamily: "Janna",
+    );
+  }
+
   static TextStyle largeTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
       color: textColor,
       fontWeight: FontWeight.w900,
       fontSize: 19,
+      fontFamily: "Janna",
+    );
+  }
+
+   static TextStyle largeBoldTextStyle({Color textColor = AppColors.gold}) {
+    return TextStyle(
+      color: textColor,
+      fontWeight: FontWeight.bold,
+      fontSize: 16,
       fontFamily: "Janna",
     );
   }

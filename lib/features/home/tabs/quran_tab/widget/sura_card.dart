@@ -18,11 +18,11 @@ class SuraCard extends StatelessWidget {
       child: ListTile(
         title: Text(
           sura.nameEn,
-          style: TextStyles.mediumLabelTextStyle(textColor: AppColors.white),
+          style: TextStylesHelper.mediumLabelTextStyle(textColor: AppColors.white),
         ),
         subtitle: Text(
           sura.nameAr,
-          style: TextStyles.mediumLabelTextStyle(textColor: AppColors.white),
+          style: TextStylesHelper.mediumLabelTextStyle(textColor: AppColors.white),
         ),
         leading: Stack(
           alignment: Alignment.center,
@@ -30,7 +30,7 @@ class SuraCard extends StatelessWidget {
             Image.asset(AppImages.suraNumberDecoration, height: 70, width: 70),
             Text(
               sura.id.toString(),
-              style: TextStyles.mediumLabelTextStyle(
+              style: TextStylesHelper.mediumLabelTextStyle(
                 textColor: AppColors.white,
               ),
             ),
@@ -38,7 +38,7 @@ class SuraCard extends StatelessWidget {
         ),
         trailing: Text(
           sura.ayaNumbers,
-          style: TextStyles.mediumLabelTextStyle(textColor: AppColors.white),
+          style: TextStylesHelper.mediumLabelTextStyle(textColor: AppColors.white),
         ),
       ),
     );

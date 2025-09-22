@@ -35,19 +35,19 @@ class MostRecentCard extends StatelessWidget {
               children: [
                 Text(
                   sura.nameEn,
-                  style: TextStyles.largeLabelTextStyle(
+                  style: TextStylesHelper.largeLabelTextStyle(
                     textColor: AppColors.black,
                   ),
                 ),
                 Text(
                   sura.nameAr,
-                  style: TextStyles.largeLabelTextStyle(
+                  style: TextStylesHelper.largeLabelTextStyle(
                     textColor: AppColors.black,
                   ),
                 ),
                 Text(
                   "${sura.ayaNumbers} Verses",
-                  style: TextStyles.largeBodyTextStyle(
+                  style: TextStylesHelper.largeBodyTextStyle(
                     textColor: AppColors.black,
                   ),
                 ),

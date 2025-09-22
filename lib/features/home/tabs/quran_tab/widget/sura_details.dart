@@ -48,7 +48,7 @@ class _SuraDetailsState extends State<SuraDetails> {
                             textDirection: TextDirection.rtl,
                             child: Text(
                               widget.sura.nameAr,
-                              style: TextStyles.largeLabelTextStyle(
+                              style: TextStylesHelper.largeLabelTextStyle(
                                 textColor: AppColors.gold,
                               ),
                               textAlign: TextAlign.center,
@@ -66,7 +66,7 @@ class _SuraDetailsState extends State<SuraDetails> {
                         textDirection: TextDirection.rtl,
                         child: Text(
                           suraContent!,
-                          style: TextStyles.largeBodyTextStyle(
+                          style: TextStylesHelper.largeBodyTextStyle(
                             textColor: AppColors.gold,
                           ),
                           textAlign: TextAlign.center,

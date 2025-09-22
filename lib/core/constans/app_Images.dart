@@ -36,10 +36,26 @@ class AppImages {
   static const String intro2 = 'assets/images/intro2.png';
   static const String intro3 = 'assets/images/intro3.png';
   static const String intro4 = 'assets/images/intro4.png';
-  static const String mask1 = "assets/images/mask.png";
-  static const String mask2 = "assets/images/mask2.png";
+  static const String soundWave = "assets/images/soundWave.png";
   static const String polygon = "assets/images/Polygon.png";
   static const String volume = "assets/images/VolumeHigh.png";
   static const String volumeCross = "assets/images/VolumeCross.png";
   static const String pause = "assets/images/pause.png";
+  // azkar icon
+  static const String azkarIcon1 = "assets/images/azkarimage1.png";
+  static const String azkarIcon2 = "assets/images/azkarimage2.png";
+  static const String azkarIcon3 = "assets/images/azkarimage3.png";
+  static const String azkarIcon4 = "assets/images/azkarimage4.png";
+  static const String azkarIcon5 = "assets/images/azkarimage5.png";
+  static const String azkarIcon6 = "assets/images/azkarimage6.png";
+  static const String azkarIcon7 = "assets/images/azkarimage7.png";
+  static const String azkarIcon8 = "assets/images/azkarimage8.png";
+  static const String azkarIcon9 = "assets/images/azkarimage9.png";
+  static const String azkarIcon10 = "assets/images/azkarimage10.png";
+  static const String azkarIcon11 = "assets/images/azkarimage11.png";
+  static const String azkarIcon12 = "assets/images/azkarimage12.png";
+  static const String azkarIcon13 = "assets/images/azkarimage13.png";
+  static const String azkarIcon14 = "assets/images/azkarimage14.png";
+  static const String azkarIcon15 = "assets/images/azkarimage15.png";
+  static const String azkarIcon16 = "assets/images/azkarimage16.png";
 }

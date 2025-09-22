@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:islami/core/theme/text_styles.dart';
+import 'package:islami/core/theme/textstyle.dart';
 
 class CustomPageIntro extends StatelessWidget {
   final String centerImage;
@@ -28,17 +28,16 @@ class CustomPageIntro extends StatelessWidget {
               padding: const EdgeInsets.only(bottom: 50),
               child: Text(
                 centerText,
-                style: TextStyles.smallLabelTextStyle(),
+                style: TextStylesHelper.smallLabelTextStyle(),
                 textAlign: TextAlign.center,
               ),
             ),
-
 
               Padding(
                 padding: const EdgeInsets.only(bottom: 50),
                 child: Text(
                   bottomText,
-                  style: TextStyles.smallLabelTextStyle(),
+                  style: TextStylesHelper.smallLabelTextStyle(),
                   textAlign: TextAlign.center,
                 ),
               ),
