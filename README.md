@@ -33,4 +33,3 @@ Run these commands in your terminal:
 ```bash
 git clone https://github.com/omararameen77/islami.git
 
-
