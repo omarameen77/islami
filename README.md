@@ -58,6 +58,7 @@ images
 <p align="center">
   <img src="screenshot/splash.jpeg" width="150"/>
   <img src="screenshot/intro.jpeg" width="150"/>
+  <img src="screenshot/introo.jpeg" width="150"/>
   <img src="screenshot/intro2.jpeg" width="150"/>
   <img src="screenshot/intro3.jpeg" width="150"/>
   <img src="screenshot/intro4.jpeg" width="150"/>
