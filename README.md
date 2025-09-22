@@ -1,5 +1,6 @@
 
 # 📖 Islami App
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 <p align="center">
   <img src="screenshot/Cover.png" width="700"/>
