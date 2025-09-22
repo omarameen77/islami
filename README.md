@@ -55,7 +55,8 @@ Omar Ameen
 ```bash
 images
 ```
-<p align="center">
+
+<p align="left">
   <img src="screenshot/splash.jpeg" width="150"/>
   <img src="screenshot/intro.jpeg" width="150"/>
   <img src="screenshot/introo.jpeg" width="150"/>
