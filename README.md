@@ -29,11 +29,11 @@ This project uses the following packages:
 ### Installing
 
 Run these commands in your terminal:
-### 1.Open Terminal and Clone the Repo
+#### 1.Open Terminal and Clone the Repo
 ```bash
 git clone https://github.com/omararameen77/islami.git
 ```
-### 2.Cd Over
+#### 2.Cd Over
 ```bash
 cd islami
 ```
