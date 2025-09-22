@@ -68,6 +68,8 @@ images
   <img src="screenshot/hadeth.jpeg" width="150"/>
   <img src="screenshot/hadeth1.jpeg" width="150"/>
   <img src="screenshot/sebha.jpeg" width="150"/>
+</p>
+<p align="left">
   <img src="screenshot/sebha1.jpeg" width="150"/>
   <img src="screenshot/Radio.png" width="150"/>
   <img src="screenshot/Time.png" width="150"/>
