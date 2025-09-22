@@ -14,7 +14,7 @@ class TimeTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return BaseTabBody(
       child: Padding(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(16.0),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
