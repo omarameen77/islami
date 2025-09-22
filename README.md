@@ -66,25 +66,25 @@ images
 ```
 
 <p align="left">
-  <img src="screenshot/splash.jpeg" width="150"/>
-  <img src="screenshot/intro.jpeg" width="150"/>
-  <img src="screenshot/introo.jpeg" width="150"/>
-  <img src="screenshot/intro2.jpeg" width="150"/>
-  <img src="screenshot/intro3.jpeg" width="150"/>
-  <img src="screenshot/intro4.jpeg" width="150"/>
+  <img src="screenshot/splash.jpeg" width="120"/>
+  <img src="screenshot/intro.jpeg" width="120"/>
+  <img src="screenshot/introo.jpeg" width="120"/>
+  <img src="screenshot/intro2.jpeg" width="120"/>
+  <img src="screenshot/intro3.jpeg" width="120"/>
+  <img src="screenshot/intro4.jpeg" width="120"/>
 </p>
 <p align="left">
-  <img src="screenshot/quran.jpeg" width="150"/>
-  <img src="screenshot/quran1.jpeg" width="150"/>
-  <img src="screenshot/hadeth.jpeg" width="150"/>
-  <img src="screenshot/hadeth1.jpeg" width="150"/>
+  <img src="screenshot/quran.jpeg" width="120"/>
+  <img src="screenshot/quran1.jpeg" width="120"/>
+  <img src="screenshot/hadeth.jpeg" width="120"/>
+  <img src="screenshot/hadeth1.jpeg" width="120"/>
 </p>
 <p align="left">
-  <img src="screenshot/sebha.jpeg" width="150"/>
-  <img src="screenshot/sebha1.jpeg" width="150"/>
-  <img src="screenshot/Radio.png" width="150"/>
-  <img src="screenshot/Time.png" width="150"/>
+  <img src="screenshot/sebha.jpeg" width="120"/>
+  <img src="screenshot/sebha1.jpeg" width="120"/>
+  <img src="screenshot/Radio.png" width="120"/>
+  <img src="screenshot/Time.png" width="120"/>
 </p>
 <p align="left">
-  <img src="screenshot/Time.png" width="150"/>
+  <img src="screenshot/Time.png" width="120"/>
 </p>
