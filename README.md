@@ -25,3 +25,5 @@ This project uses the following packages:
 ### Dev Dependencies 🛠
 - [flutter_test](https://pub.dev/packages/flutter_test) – Testing framework for Flutter
 - [flutter_lints](https://pub.dev/packages/flutter_lints) – Recommended lints for Flutter projects
+
+### Installing
