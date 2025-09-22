@@ -56,10 +56,17 @@ Omar Ameen
 images
 ```
 <p align="center">
-  <img src="screenshot/SplashScreen.png" width="100"/>
-  <img src="screenshot/IntroScreen.png" width="100"/>
-  <img src="screenshot/Intro2Screen.png" width="100"/>
-  <img src="screenshot/Intro3Screen.png" width="100"/>
-  <img src="screenshot/Intro4Screen.png" width="100"/>
-  <img src="screenshot/Intro5Screen.png" width="100"/>
+  <img src="screenshot/splash.jpeg" width="150"/>
+  <img src="screenshot/intro.jpeg" width="150"/>
+  <img src="screenshot/intro2.jpeg" width="150"/>
+  <img src="screenshot/intro3.jpeg" width="150"/>
+  <img src="screenshot/intro4.jpeg" width="150"/>
+  <img src="screenshot/quran.jpeg" width="150"/>
+  <img src="screenshot/quran1.jpeg" width="150"/>
+  <img src="screenshot/hadeth.jpeg" width="150"/>
+  <img src="screenshot/hadeth1.jpeg" width="150"/>
+  <img src="screenshot/sebha.jpeg" width="150"/>
+  <img src="screenshot/sebha1.jpeg" width="150"/>
+  <img src="screenshot/Radio.png" width="150"/>
+  <img src="screenshot/Time.png" width="150"/>
 </p>
