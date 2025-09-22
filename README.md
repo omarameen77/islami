@@ -8,7 +8,11 @@
 ## Description
 A simple Islamic app that contains multiple religious sections such as **Azkar**, **Hadith**, **Sebha**, **Radio**, and **Prayer Times**.  
 Built with **Flutter** 🎯.
-## Dependencies 📦
+
+
+## Getting Started
+
+### Dependencies 📦
 
 This project uses the following packages:
 
