@@ -56,10 +56,10 @@ Omar Ameen
 images
 ```
 <p align="center">
-  <img src="screenshot/SplashScreen.png" width="200"/>
-  <img src="screenshot/IntroScreen.png" width="200"/>
-  <img src="screenshot/Intro2Screen.png" width="200"/>
-  <img src="screenshot/Intro3Screen.png" width="200"/>
-  <img src="screenshot/Intro4Screen.png" width="200"/>
-  <img src="screenshot/Intro5Screen.png" width="200"/>
+  <img src="screenshot/SplashScreen.png" width="100"/>
+  <img src="screenshot/IntroScreen.png" width="100"/>
+  <img src="screenshot/Intro2Screen.png" width="100"/>
+  <img src="screenshot/Intro3Screen.png" width="100"/>
+  <img src="screenshot/Intro4Screen.png" width="100"/>
+  <img src="screenshot/Intro5Screen.png" width="100"/>
 </p>
