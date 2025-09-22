@@ -1,5 +1,5 @@
 
-# Islami 🌙
+# Islami app
 
 <p align="center">
   <img src="screenshot/Cover.png" width="800"/>
@@ -10,7 +10,7 @@ A simple Islamic app that contains multiple religious sections such as **Azkar**
 Built with **Flutter** .
 
 
-## Getting Started
+## Getting Started 🚀
 
 ### Dependencies 📦
 
