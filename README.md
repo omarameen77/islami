@@ -1,5 +1,5 @@
 
-# Islami app
+# Islami App
 
 <p align="center">
   <img src="screenshot/Cover.png" width="800"/>
