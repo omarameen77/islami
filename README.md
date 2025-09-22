@@ -37,3 +37,7 @@ git clone https://github.com/omararameen77/islami.git
 ```bash
 cd islami
 ```
+#### 3.Run Pub
+```bash
+flutter pub get
+```
