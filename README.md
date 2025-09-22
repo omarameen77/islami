@@ -83,7 +83,6 @@ images
   <img src="screenshot/sebha.jpeg" width="120"/>
   <img src="screenshot/sebha1.jpeg" width="120"/>
   <img src="screenshot/Radio.png" width="120"/>
-  <img src="screenshot/Time.png" width="120"/>
 </p>
 <p align="left">
   <img src="screenshot/Time.png" width="120"/>
