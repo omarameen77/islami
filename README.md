@@ -41,3 +41,6 @@ cd islami
 ```bash
 flutter pub get
 ```
+## Help
+
+This App is using **SharedPreferences** To get the Data From Local Data Source
