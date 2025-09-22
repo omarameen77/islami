@@ -30,7 +30,7 @@ This project uses the following packages:
 
 Follow these steps to run the project locally:
 
-### 1️⃣ Clone the repository
+### 1. Open Terminal and Clone the Repository
 ```bash
-git clone https://github.com/username/islami.git
-cd islami
+git clone https://github.com/omarameen77/islami.git
+
