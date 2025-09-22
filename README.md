@@ -1,6 +1,5 @@
 
 # 📖 Islami App
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 <p align="center">
   <img src="screenshot/Cover.png" width="700"/>
@@ -28,3 +27,10 @@ This project uses the following packages:
 - [flutter_lints](https://pub.dev/packages/flutter_lints) – Recommended lints for Flutter projects
 
 ### Installing
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/username/islami.git
+cd islami
