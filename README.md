@@ -2,7 +2,7 @@
 # 📖 Islami App
 
 <p align="center">
-  <img src="screenshot/Cover.png" width="700"/>
+  <img src="screenshot/Cover.png" width="800"/>
 </p>
 
 ## Description
